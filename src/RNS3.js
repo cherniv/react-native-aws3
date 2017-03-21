@@ -28,7 +28,7 @@ export class RNS3 {
 
   static put(file, options) {
     options = Object.assign({}, options, {
-      key: (options.keyPrefix || '') + file.name,
+      key: (options.keyPrefix || '') ,
       contentType: file.type
     });
 
